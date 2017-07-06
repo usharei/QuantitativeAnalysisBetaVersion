@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantitativeAnalysis", "QuantitativeAnalysis\QuantitativeAnalysis.csproj", "{F57C39E5-1458-412D-929C-37F5F16B6D6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantitativeAnalysis.Model", "QuantitativeAnalysis.Model\QuantitativeAnalysis.Model.csproj", "{5B2B93A1-2EFA-4E03-82C7-572AA9D4483E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantitativeAnalysis.DataAccess", "QuantitativeAnalysis.DataAccess\QuantitativeAnalysis.DataAccess.csproj", "{418707BB-8E36-4371-8B3C-593B17297201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantitativeAnalysis.Utilities", "QuantitativeAnalysis.Utilities\QuantitativeAnalysis.Utilities.csproj", "{4326C299-9C02-4C5E-B291-CE42C5D358C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantitativeAnalysis.Strategies", "QuantitativeAnalysis.Strategies\QuantitativeAnalysis.Strategies.csproj", "{E940C3DD-6271-4F11-BDCA-784100F9A5B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantitativeAnalysis.Trading", "QuantitativeAnalysis.Trading\QuantitativeAnalysis.Trading.csproj", "{62C73995-E9E2-43D5-BC3A-909B89CC97C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{F57C39E5-1458-412D-929C-37F5F16B6D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F57C39E5-1458-412D-929C-37F5F16B6D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F57C39E5-1458-412D-929C-37F5F16B6D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2B93A1-2EFA-4E03-82C7-572AA9D4483E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2B93A1-2EFA-4E03-82C7-572AA9D4483E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2B93A1-2EFA-4E03-82C7-572AA9D4483E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2B93A1-2EFA-4E03-82C7-572AA9D4483E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418707BB-8E36-4371-8B3C-593B17297201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418707BB-8E36-4371-8B3C-593B17297201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418707BB-8E36-4371-8B3C-593B17297201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418707BB-8E36-4371-8B3C-593B17297201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4326C299-9C02-4C5E-B291-CE42C5D358C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4326C299-9C02-4C5E-B291-CE42C5D358C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4326C299-9C02-4C5E-B291-CE42C5D358C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4326C299-9C02-4C5E-B291-CE42C5D358C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E940C3DD-6271-4F11-BDCA-784100F9A5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E940C3DD-6271-4F11-BDCA-784100F9A5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E940C3DD-6271-4F11-BDCA-784100F9A5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E940C3DD-6271-4F11-BDCA-784100F9A5B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C73995-E9E2-43D5-BC3A-909B89CC97C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C73995-E9E2-43D5-BC3A-909B89CC97C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C73995-E9E2-43D5-BC3A-909B89CC97C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C73995-E9E2-43D5-BC3A-909B89CC97C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
